@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jose Norbey Sánchez Morales - Hoja de Vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --light-bg: #f8fafc;
+      --dark-text: #1e293b;
+      --gray: #64748b;
+      --light-gray: #cbd5e1;
+      --white: #ffffff;
+      --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--dark-text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: var(--white);
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    .header-content h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .header-content p {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 0.25rem;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .contact-info span {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .section {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-bottom: 1.75rem;
+      box-shadow: var(--card-shadow);
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--light-gray);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+      position: relative;
+      padding-left: 1.25rem;
+    }
+
+    li:before {
+      content: "•";
+      color: var(--primary);
+      font-size: 1.25rem;
+      position: absolute;
+      left: 0;
+      top: -0.15rem;
+    }
+
+    .experience-item,
+    .education-item,
+    .cert-item {
+      margin-bottom: 1.5rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--light-gray);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .experience-item:last-child,
+    .education-item:last-child,
+    .cert-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-title {
+      font-weight: 600;
+      font-size: 1.125rem;
+      margin-bottom: 0.25rem;
+      color: var(--dark-text);
+    }
+
+    .item-subtitle {
+      font-weight: 500;
+      color: var(--primary);
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .item-dates {
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin-bottom: 0.5rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .skill-tag {
+      background: var(--light-bg);
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      text-align: center;
+      color: var(--primary-dark);
+      font-weight: 500;
+    }
+
+    .languages ul {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .languages li {
+      padding-left: 0;
+    }
+
+    .languages li:before {
+      display: none;
+    }
+
+    .footer-note {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--light-gray);
+    }
+
+    @media (max-width: 768px) {
+      .header-content h1 {
+        font-size: 1.75rem;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      .languages ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Jose Norbey Sánchez Morales</h1>
+      <p>Ingeniero de Sistemas • Docente • Especialista en Gestión Tecnológica</p>
+      <div class="contact-info">
+        <span><i class="fas fa-id-card"></i> CC 1.070.589.080</span>
+        <span><i class="fas fa-birthday-cake"></i> 19/06/1987 (39 años)</span>
+        <span><i class="fas fa-phone"></i> 300 597 9838 • 312 387 6279</span>
+        <span><i class="fas fa-envelope"></i> sanchezmoralesjn@gmail.com</span>
+        <span><i class="fas fa-map-marker-alt"></i> Mzn 20 Cs 07 Santa Isabel - Girardot, Cund.</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Perfil Ocupacional -->
+    <section class="section">
+      <h2 class="section-title">Perfil Ocupacional</h2>
+      <p>
+        Ingeniero de Sistemas, Docente. Especialista en gestión tecnológica, administración de sistemas de información, seguridad en redes informáticas, administración de infraestructura y procesos TI. Con experiencia en la optimización de procesos corporativos. Calificado para instruir en: sistemas, redes, infraestructura y desarrollo de software.
+      </p>
+      <div class="skills-grid" style="margin-top: 1rem;">
+        <div class="skill-tag">Seguridad de Redes</div>
+        <div class="skill-tag">Gestión de Sistemas</div>
+        <div class="skill-tag">Admin. Infraestructura TI</div>
+        <div class="skill-tag">Ciberseguridad</div>
+        <div class="skill-tag">Desarrollo de Software</div>
+        <div class="skill-tag">IA Generativa</div>
+        <div class="skill-tag">Procesos TI</div>
+        <div class="skill-tag">Desarrollo Web</div>
+        <div class="skill-tag">Microsoft 365</div>
+        <div class="skill-tag">WordPress</div>
+        <div class="skill-tag">Docencia</div>
+        <div class="skill-tag">Programación Básica</div>
+      </div>
+    </section>
+
+    <!-- Formación Académica -->
+    <section class="section">
+      <h2 class="section-title">Formación Académica</h2>
+      <div class="education-item">
+        <div class="item-title">Ingeniería de Sistemas</div>
+        <div class="item-subtitle">Corporación Universidad Piloto de Colombia - Alto Magdalena</div>
+        <div class="item-dates">Graduado • 28/05/2016</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Especialización en Gerencia de Proyectos Ciclo I</div>
+        <div class="item-subtitle">Corporación Universidad Piloto de Colombia - Alto Magdalena</div>
+        <div class="item-dates">Terminación • 04/03/2017</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Inglés Nivel B1</div>
+        <div class="item-subtitle">Oxford Centre English Institute</div>
+        <div class="item-dates">Graduado • 07/09/2020</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Formación Tecno Pedagógica en Ambientes Virtuales de Aprendizaje Blackboard 9.1</div>
+        <div class="item-subtitle">SENA - Centro de la Tecnología del Diseño y la Productividad Empresarial – Girardot</div>
+        <div class="item-dates">Graduado • 11/08/2017</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Bachiller Técnico</div>
+        <div class="item-subtitle">Colegio Departamental Atanasio Girardot</div>
+        <div class="item-dates">Graduado • 14/12/2005</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Instalador de Redes Eléctricas Residenciales y Comerciales</div>
+        <div class="item-subtitle">Educación Futuro</div>
+        <div class="item-dates">Graduado • 17/12/2010</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Instalación de Redes Eléctricas</div>
+        <div class="item-subtitle">SENA - Centro de la Tecnología del Diseño y la Productividad Empresarial – Girardot</div>
+        <div class="item-dates">Graduado • 14/12/2005</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">Técnico Profesional en Sistemas</div>
+        <div class="item-subtitle">SENA - Centro de la Tecnología del Diseño y la Productividad Empresarial – Girardot</div>
+        <div class="item-dates">Graduado • 08/06/2011</div>
+      </div>
+      <div class="education-item">
+        <div class="item-title">CCNA de Cisco versión 4.0 - Fundamentos en Redes de Comunicación – Informática</div>
+        <div class="item-subtitle">SENA - Centro de la Tecnología del Diseño y la Productividad Empresarial – Girardot</div>
+        <div class="item-dates">Graduado • 12/12/2010</div>
+      </div>
+    </section>
+
+    <!-- Capacitación -->
+    <section class="section">
+      <h2 class="section-title">Capacitación</h2>
+      <div class="cert-item">
+        <div class="item-title">Trabajo Seguro en Alturas Nivel Avanzado</div>
+        <div class="item-subtitle">SENA - Centro de la Tecnología del Diseño y la Productividad Empresarial – Girardot</div>
+        <div class="item-dates">Terminado • 21/09/2016 • 40 horas</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Marketing Digital</div>
+        <div class="item-subtitle">Interactive Advertising Bureau Google</div>
+        <div class="item-dates">Terminado • 31/08/2016</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Network Security</div>
+        <div class="item-subtitle">Coursera</div>
+        <div class="item-dates">Terminado • 01/09/2024 • 120 horas</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Inteligencia Artificial y Productividad</div>
+        <div class="item-subtitle">Open Academy Santander</div>
+        <div class="item-dates">Terminado • 14/10/2025 • 4 horas</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Introducción a la Inteligencia Artificial</div>
+        <div class="item-subtitle">Platzi</div>
+        <div class="item-dates">Terminado • 09/11/2025 • 4 horas</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Programación Básica</div>
+        <div class="item-subtitle">Platzi</div>
+        <div class="item-dates">Terminado • 09/11/2025 • 29 horas</div>
+      </div>
+      <div class="cert-item">
+        <div class="item-title">Diplomado en Desarrollo para Aplicaciones Móviles</div>
+        <div class="item-subtitle">La Agencia de Empleo y Fomento Empresarial de Compensar y el Instituto Tecnisistemas</div>
+        <div class="item-dates">Terminado • 13/09/2023 • 50 horas</div>
+      </div>
+    </section>
+
+    <!-- Idioma -->
+    <section class="section languages">
+      <h2 class="section-title">Idioma</h2>
+      <ul>
+        <li><strong>Inglés:</strong> Básico (Escribe, Habla, Lee)</li>
+      </ul>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section class="section">
+      <h2 class="section-title">Experiencia Laboral</h2>
+      <div class="experience-item">
+        <div class="item-title">Ingeniero de Soporte</div>
+        <div class="item-subtitle">CompuCel Tecnología</div>
+        <div class="item-dates">01/07/2020 – 28/02/2022 (19.87 meses)</div>
+        <ul>
+          <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas.</li>
+          <li>Garantizar el funcionamiento en red de los equipos, verificando que la transmisión de los datos sea la adecuada.</li>
+          <li>Realizar Mantenimiento de Hardware y software de los equipos de cómputo.</li>
+          <li>Diseño de páginas web con WordPress, manejo de plugins y SEO.</li>
+          <li>Ciberseguridad en redes locales para empresas.</li>
+          <li>Desarrollo de software soluciones empresariales.</li>
+          <li>Manejo de Microsoft 365 entorno empresarial.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Ervin Barragán – 3203402724</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Asesor de Ventas</div>
+        <div class="item-subtitle">Oxford Centre English Institute</div>
+        <div class="item-dates">04/02/2019 – 30/12/2019 (10.84 meses)</div>
+        <ul>
+          <li>Visitar establecimientos comerciales para promocionar productos o servicios.</li>
+          <li>Organizar y exhibir mercancías en establecimientos comerciales.</li>
+          <li>Elaborar inventarios, hacer pedidos e informes de ventas diarias en el punto de venta.</li>
+          <li>Dar a conocer las características, beneficios y precios de los productos.</li>
+          <li>Contactar telefónicamente o por medios electrónicos personas y negocios e impulsar la venta de bienes y servicios.</li>
+          <li>Realizar visitas a clientes para brindarle la información de los productos.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Yuly Tatiana Vásquez – 3212401514</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Ingeniero de Sistemas – Coordinador</div>
+        <div class="item-subtitle">Soluciones Laborales y de Servicios SAS</div>
+        <div class="item-dates">04/10/2018 – 29/01/2019 (5.00 meses)</div>
+        <ul>
+          <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas backup de información.</li>
+          <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+          <li>Activar, operar y administrar el funcionamiento de sistemas informáticos y de computación para la clínica Dumian Medical Girardot.</li>
+          <li>Garantizar el funcionamiento en red de los equipos verificando que la transmisión de los datos sea la adecuada.</li>
+          <li>Asistir a los usuarios en la solución de los problemas que presente el sistema.</li>
+          <li>Soporte a bases de datos software corporativo.</li>
+          <li>Soporte y administración web sitios web empresarial.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Martha Catalina Ruiz – 3223630260</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Ingeniero, Soporte – Computación</div>
+        <div class="item-subtitle">Secretaría de Educación Municipio de Girardot</div>
+        <div class="item-dates">01/02/2016 – 02/02/2017 (6.00 meses)</div>
+        <ul>
+          <li>Supervisar e inspeccionar la instalación, modificación y prueba de computadores y equipos relacionados.</li>
+          <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas.</li>
+          <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+          <li>Desarrollo de páginas web con WordPress y plugins, SEO posicionamiento web.</li>
+          <li>Soporte de primer y segundo nivel a usuarios finales.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Carlos Arturo Rozo Cortés – 3102243200 / 3138723124 / 8352489</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Ingeniero, Soporte – Computación</div>
+        <div class="item-subtitle">CBC Comercializamos S.A.S</div>
+        <div class="item-dates">18/11/2014 – 04/05/2015 (6 meses)</div>
+        <ul>
+          <li>Supervisar e inspeccionar la instalación, modificación y prueba de computadores y equipos relacionados.</li>
+          <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+          <li>Activar, operar y administrar el funcionamiento de sistemas informáticos y de computación.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Luz Dary Calderón – 2451559</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Auxiliar, Suministros y Almacén</div>
+        <div class="item-subtitle">Compañía Americana de Multiservicios (CAM)</div>
+        <div class="item-dates">19/03/2014 – 14/11/2013 (6 meses)</div>
+        <ul>
+          <li>Recibir y clasificar materiales, suministros, repuestos equipos y mercancía en general.</li>
+          <li>Operar consola para monitorear la operación de los sistemas de cómputo y redes.</li>
+          <li>Recopilar, verificar, registrar y tramitar documentos y formularios.</li>
+          <li>Operar programas, manejar la información y producir reportes.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Juan Carlos Calderón Bonilla – Margarita Rosero Upegui<br>3183660421 / (57-1) 417 3000 – 7046000 EXT. 103</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Técnico, Soporte Sistemas e Informática</div>
+        <div class="item-subtitle">Caja de Compensación Familiar (CAFAM)</div>
+        <div class="item-dates">20/12/2010 – 19/07/2011 (6.0 meses)</div>
+        <ul>
+          <li>Verificar conexiones mecánicas, eléctricas y electrónicas del sistema.</li>
+          <li>Administrador de red local, realizar mantenimiento al hardware e instalación de programas entorno Windows.</li>
+          <li>Manejo de servidores, administrador de red, asignación de usuarios en red local.</li>
+          <li>Garantizar el funcionamiento en red de los equipos verificando que la transmisión de los datos sea la adecuada.</li>
+          <li>Soporte de primer y segundo nivel.</li>
+        </ul>
+        <p><strong>Jefe inmediato:</strong> Jesús Ernesto Montealegre – 2456161 / 2450500 / 3204428331</p>
+      </div>
+    </section>
+
+    <div class="footer-note">
+      <p>Documento generado para uso profesional • CC 1.070.589.080</p>
+    </div>
+  </div>
+</body>
+</html>
+
