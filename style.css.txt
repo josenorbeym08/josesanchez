@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: var(--white);
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+header {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.photo-container {
+    flex-shrink: 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: var(--secondary-color);
+    border-left: 5px solid var(--accent-color);
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 20px;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.id-info {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.skills-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.education-item, .job {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.job:last-child, .education-item:last-child {
+    border-bottom: none;
+}
+
+.institution, .role {
+    font-weight: bold;
+    color: #555;
+}
+
+.dates {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.course-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.course-list li {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.language-grid {
+    background-color: #eef2f5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.print-button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-print {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-print:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .course-list {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        padding: 15px;
+        margin: 0;
+    }
+}
+
+@media print {
+    .btn-print {
+        display: none;
+    }
+    .container {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    body {
+        background-color: white;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

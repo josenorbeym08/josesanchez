@@ -1,0 +1,10 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const printBtn = document.getElementById('printBtn');
+    
+    printBtn.addEventListener('click', () => {
+        window.print();
+    });
+
+    // Opcional: Un saludo en consola para reclutadores que vean el código
+    console.log("Hoja de Vida cargada correctamente. Desarrollado por Jose Norbey Sanchez Morales.");
+});

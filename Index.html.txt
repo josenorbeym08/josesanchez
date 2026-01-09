@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Jose Norbey Sanchez Morales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="photo-container">
+                    <img src="tu-foto.jpg" alt="Jose Norbey Sanchez Morales" class="profile-photo" onerror="this.src='https://via.placeholder.com/150'">
+                </div>
+                <div class="personal-info">
+                    <h1>JOSE NORBEY SANCHEZ MORALES</h1>
+                    <p class="id-info"><strong>CC:</strong> 1.070.589.080</p>
+                    <div class="contact-grid">
+                        <p><i class="fas fa-calendar"></i> 19/06/1987 (39 Años)</p>
+                        <p><i class="fas fa-phone"></i> 3005979838 - 3123876279</p>
+                        <p><i class="fas fa-envelope"></i> sanchezmoralesjn@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mzn 20 Cs 07 Santa Isabel - Girardot – Cund.</p>
+                        <p><i class="fas fa-user"></i> Estado civil: Soltero</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="perfil">
+            <h2><i class="fas fa-user-tie"></i> PERFIL OCUPACIONAL</h2>
+            <p>Ingeniero de Sistemas, Docente. Especialista en gestión tecnológica, administración de sistemas de información, seguridad en redes informáticas, administración de infraestructura y procesos TI.</p>
+            <p>Con experiencia en la optimización de procesos corporativos. Calificado para instruir en: sistemas, redes, infraestructura y desarrollo de software.</p>
+            <div class="skills-box">
+                <h3>Competencias clave:</h3>
+                <p>Seguridad de Redes, Gestión de Sistemas, Administración Infraestructura Tecnológica, Ciberseguridad, Desarrollo de Software, Inteligencia Artificial Generativa, Procesos TI, Desarrollo de páginas web, Manejo de Microsoft 365, Programación básica, Desarrollador web con wordpress, Docencia.</p>
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h2><i class="fas fa-graduation-cap"></i> FORMACIÓN ACADÉMICA</h2>
+            
+            <div class="education-item">
+                <h3>Ingeniería de Sistemas</h3>
+                <p class="institution">Corporación Universidad Piloto de Colombia - Alto Magdalena</p>
+                <p class="status">Graduado - 28/05/2016</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Especialización en Gerencia de Proyectos Ciclo I</h3>
+                <p class="institution">Corporación Universidad Piloto de Colombia - Alto Magdalena</p>
+                <p class="status">Terminación - 04/03/2017</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Ingles nivel B1</h3>
+                <p class="institution">OXFORD CENTRE ENGLISH INSTITUTE</p>
+                <p class="status">Graduado - 07/09/2020</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Formación tecno pedagógica en ambientes virtuales de aprendizaje blackboard 9.1</h3>
+                <p class="institution">SENA - Girardot</p>
+                <p class="status">Graduado - 11/08/2017</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Técnico Profesional en Sistemas</h3>
+                <p class="institution">SENA - Girardot</p>
+                <p class="status">Graduado - 08/06/2011</p>
+            </div>
+
+            <div class="education-item">
+                <h3>CCNA de Cisco versión 4.0 - Fundamentos en redes</h3>
+                <p class="institution">SENA - Girardot</p>
+                <p class="status">Graduado - 12/12/2010</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>Instalador de redes eléctricas residenciales y comerciales</h3>
+                <p class="institution">EDUCACIÓN FUTURO</p>
+                <p class="status">Graduado - 17/12/2010</p>
+            </div>
+             <div class="education-item">
+                <h3>Bachiller Técnico</h3>
+                <p class="institution">Colegio Departamental Atanasio Girardot</p>
+                <p class="status">Graduado - 14/12/2005</p>
+            </div>
+        </section>
+
+        <section id="capacitacion">
+            <h2><i class="fas fa-certificate"></i> CAPACITACIÓN Y CURSOS</h2>
+            <ul class="course-list">
+                <li>
+                    <strong>Network Security</strong> - Coursera (120 Horas) <br>
+                    <span class="date">Terminado: 01/09/2024</span>
+                </li>
+                <li>
+                    <strong>Inteligencia Artificial y productividad</strong> - OPEN ACADEMY SANTANDER (4 Horas) <br>
+                    <span class="date">Terminado: 14/10/2025</span>
+                </li>
+                <li>
+                    <strong>Introducción a la Inteligencia Artificial</strong> - PLATZI (4 Horas) <br>
+                    <span class="date">Terminado: 09/11/2025</span>
+                </li>
+                <li>
+                    <strong>Programación básica</strong> - PLATZI (29 Horas) <br>
+                    <span class="date">Terminado: 09/11/2025</span>
+                </li>
+                <li>
+                    <strong>Diplomado en desarrollo para aplicaciones móviles</strong> - COMPENSAR / TECNISISTEMAS (50 Horas) <br>
+                    <span class="date">Terminado: 13/09/2023</span>
+                </li>
+                <li>
+                    <strong>Marketing digital</strong> - INTERACTIVE ADVERTISIN BUREAU GOOGLE <br>
+                    <span class="date">Terminado: 31/08/2016</span>
+                </li>
+                <li>
+                    <strong>Trabajo seguro en alturas nivel avanzado</strong> - SENA (40 Horas) <br>
+                    <span class="date">Terminado: 21/09/2016</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="idioma">
+            <h2><i class="fas fa-language"></i> IDIOMA</h2>
+            <div class="language-grid">
+                <div class="lang-item">
+                    <strong>Inglés:</strong>
+                    <span>Escritura: Básico</span> | 
+                    <span>Habla: Básico</span> | 
+                    <span>Lectura: Básico</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2><i class="fas fa-briefcase"></i> EXPERIENCIA LABORAL</h2>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>COMPUCEL TECNOLOGIA</h3>
+                    <span class="role">Ingeniero de soporte</span>
+                </div>
+                <p class="dates">01/07/2020 - 28/02/2022 | Jefe: Ervin Barragan (3203402724)</p>
+                <ul>
+                    <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas.</li>
+                    <li>Garantizar el funcionamiento en red de los equipos, verificando que la transmisión de los datos sea la adecuada.</li>
+                    <li>Realizar Mantenimiento de Hardware y software de los equipos de cómputo.</li>
+                    <li>Diseño de paginas web con wordpress manejo de plugins y seo.</li>
+                    <li>Ciberseguridad en redes locales para empresas.</li>
+                    <li>Desarrollo de software soluciones empresariales.</li>
+                    <li>Manejo de Microsoft 365 entorno empresarial.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>OXFORD CENTRE ENGLISH INSTITUTE</h3>
+                    <span class="role">Asesor ventas</span>
+                </div>
+                <p class="dates">04/02/2019 - 30/12/2019 | Jefe: Yuly Tatiana Vasquez (3212401514)</p>
+                <ul>
+                    <li>Visitar establecimientos comerciales para promocionar productos o servicios.</li>
+                    <li>Organizar y exhibir mercancías en establecimientos comerciales.</li>
+                    <li>Elaborar inventarios, hacer pedidos e informes de ventas diarias en el punto de venta.</li>
+                    <li>Dar a conocer las características, beneficios y precios de los productos.</li>
+                    <li>Contactar telefónicamente o por medios electrónicos personas y negocios e impulsar la venta.</li>
+                    <li>Investigar o verificar la información.</li>
+                    <li>Realizar visitas a clientes para brindarle la información de los productos.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>SOLUCIONES LABORALES Y DE SERVICIOS SAS</h3>
+                    <span class="role">Ingeniero de sistemas – Coordinador</span>
+                </div>
+                <p class="dates">04/10/2018 - 29/01/2019 | Jefe: Martha Catalina Ruiz (3223630260)</p>
+                <ul>
+                    <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas backup de información.</li>
+                    <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+                    <li>Activar, operar y administrar el funcionamiento de sistemas informáticos (Clínica Dumian Medical).</li>
+                    <li>Garantizar el funcionamiento en red de los equipos verificando que la transmisión de los datos sea la adecuada.</li>
+                    <li>Asistir a los usuarios en la solución de los problemas que presente el sistema.</li>
+                    <li>Soporte a bases de datos software corporativo y administración de sitios web empresarial.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>SECRETARIA DE EDUCACIÓN MUNICIPIO DE GIRARDOT</h3>
+                    <span class="role">Ingeniero, soporte – computación</span>
+                </div>
+                <p class="dates">01/02/2016 - 02/02/2017 | Jefe: Carlos Arturo Rozo Cortes (3102243200)</p>
+                <ul>
+                    <li>Supervisar e inspeccionar la instalación, modificación y prueba de computadores y equipos relacionados.</li>
+                    <li>Proponer, diseñar, construir, evaluar, auditar y mantener soluciones informáticas.</li>
+                    <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+                    <li>Entender los problemas humanos y organizacionales implícitos en la implantación de soluciones.</li>
+                    <li>Supervisar el mantenimiento preventivo y correctivo de la infraestructura del sistema.</li>
+                    <li>Desarrollo de paginas web con wordpress y plugins, seo posicionamiento web.</li>
+                    <li>Soporte de primer y segundo nivel a usuarios finales.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>CBC COMERCIALIZAMOS S.A.S</h3>
+                    <span class="role">Ingeniero, soporte – computación</span>
+                </div>
+                <p class="dates">18/11/2014 - 04/05/2015 | Jefe: Luz Dary Calderón (2451559)</p>
+                <ul>
+                    <li>Supervisar e inspeccionar la instalación, modificación y prueba de computadores.</li>
+                    <li>Implementar y mantener redes, software y hardware de comunicaciones.</li>
+                    <li>Activar, operar y administrar el funcionamiento de sistemas informáticos y de computación.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>COMPAÑÍA AMERICANA DE MULTISERVICIOS (CAM)</h3>
+                    <span class="role">Auxiliar, suministros y almacén</span>
+                </div>
+                <p class="dates">19/03/2014 - 14/11/2013 | Jefe: Juan Carlos Calderón Bonilla</p>
+                <ul>
+                    <li>Recibir y clasificar materiales, suministros, repuestos equipos y mercancía.</li>
+                    <li>Operar consola para monitorear la operación de los sistemas de cómputo y redes.</li>
+                    <li>Recopilar, verificar, registrar y tramitar documentos (Proceso IT).</li>
+                    <li>Operar programas, manejar la información y producir reportes.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>CAJA DE COMPENSACION FAMILIAR (CAFAM)</h3>
+                    <span class="role">Técnico, soporte sistemas e informática</span>
+                </div>
+                <p class="dates">20/12/2010 - 19/07/2011 | Jefe: Jesús Ernesto Montealegre</p>
+                <ul>
+                    <li>Verificar conexiones mecánicas, eléctricas y electrónicas del sistema.</li>
+                    <li>Administrador de red local, Mantenimiento al Hardware e instalación de programas entorno windows.</li>
+                    <li>Manejo de servidores, asignación de usuarios en red local.</li>
+                    <li>Soporte de primer y segundo nivel.</li>
+                </ul>
+            </article>
+        </section>
+        
+        <div class="print-button-container">
+            <button id="printBtn" class="btn-print"><i class="fas fa-print"></i> Imprimir / Descargar PDF</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
